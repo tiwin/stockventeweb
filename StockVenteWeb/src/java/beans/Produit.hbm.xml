@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25 mai 2013 15:25:21 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+  <class name="beans.Produit" table="produit">
+    <id name="idProduit" type="int">
+      <column name="id_produit"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="nomProduit" type="string">
+      <column length="128" name="nom_produit"/>
+    </property>
+    <property name="garantieProduit" type="string">
+      <column length="32" name="garantie_produit"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="true" name="prixproduits" table="prixproduit">
+      <key>
+        <column name="id_produit" not-null="true"/>
+      </key>
+      <one-to-many class="beans.Prixproduit"/>
+    </set>
+    <set fetch="select" inverse="true" lazy="true" name="stockproduits" table="stockproduit">
+      <key>
+        <column name="id_produit" not-null="true"/>
+      </key>
+      <one-to-many class="beans.Stockproduit"/>
+    </set>
+    <set fetch="select" inverse="true" lazy="true" name="contients" table="contient">
+      <key>
+        <column name="id_produit" not-null="true"/>
+      </key>
+      <one-to-many class="beans.Contient"/>
+    </set>
+  </class>
+</hibernate-mapping>

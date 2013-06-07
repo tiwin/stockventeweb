@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
-    <context-param>
-        <param-name>javax.faces.PROJECT_STAGE</param-name>
-        <param-value>Development</param-value>
-    </context-param>
-    <servlet>
-        <servlet-name>Faces Servlet</servlet-name>
-        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Faces Servlet</servlet-name>
-        <url-pattern>/faces/*</url-pattern>
-    </servlet-mapping>
-    <session-config>
-        <session-timeout>
-            30
-        </session-timeout>
-    </session-config>
-    <welcome-file-list>
-        <welcome-file>faces/index.xhtml</welcome-file>
-    </welcome-file-list>
+<web-app>
+
+	<!-- Nommage des servlets -->
+	<servlet>
+		<servlet-name>Connexion</servlet-name>
+		<servlet-class>projetTest.servlets.ConnexionServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CreationClient</servlet-name>
+		<servlet-class>projetTest.servlets.CreationClientServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>CreationProduit</servlet-name>
+		<servlet-class>projetTest.servlets.CreationProduitServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Recherche</servlet-name>
+		<servlet-class>projetTest.servlets.RechercherProduitServlet</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+		<servlet-name>RechercheClient</servlet-name>
+		<servlet-class>projetTest.servlets.RechercherClientServlet</servlet-class>
+	</servlet>
+
+
+
+
+	<!-- Mapping des servlets -->
+	<servlet-mapping>
+		<servlet-name>Connexion</servlet-name>
+		<url-pattern>/connexion</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CreationClient</servlet-name>
+		<url-pattern>/creationClient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>CreationProduit</servlet-name>
+		<url-pattern>/creationProduit</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Recherche</servlet-name>
+		<url-pattern>/recherche</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RechercheClient</servlet-name>
+		<url-pattern>/rechercheClient</url-pattern>
+	</servlet-mapping>
+
+
+
 </web-app>

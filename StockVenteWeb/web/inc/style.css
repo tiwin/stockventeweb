@@ -1,0 +1,74 @@
+p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+    
+}
+
+body {
+	 font: normal 8pt verdana, helvetica, sans-serif;
+color:black;
+/* background-color:#E3E2D6;*/
+background-color:white;
+
+}
+h3 {
+	color:blue;
+}
+table
+{
+	border: 1px #0568CD solid;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td, th
+{
+	margin: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+    padding: 10px;
+    border: 1px #0568CD solid;
+    margin: 10px;
+}
+
+
+ 
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+ 
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+ 
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+ 
+form input.sansLabel {
+    margin-left: 200px;
+}
+ 
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+    color: #c00;
+}
+ 
+.erreur {
+    color: #900;
+}
+ 
+.succes {
+    color: #090;
+}
+ 
+.info {
+    font-style: italic;
+    color: red;
+}
