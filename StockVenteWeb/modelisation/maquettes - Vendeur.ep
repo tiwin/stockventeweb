@@ -72,7 +72,7 @@
             <use xlink:href="#4e6936058baa4a3b81e7ac1b2e275a41" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="8cf0e463319a4962a0d78ec2e13cbf5c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f366ef8820914daeb99d2a0e8fb8bc1f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4e6936058baa4a3b81e7ac1b2e275a41" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5766625a456c43baa13fa10191d3c338" dx="-16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5766625a456c43baa13fa10191d3c338" dx="-16"/>
                 </textPath>
             </text>
 
@@ -225,7 +225,7 @@
             <use xlink:href="#461beaeed45d4293862b14b76ad23f77" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="222d0bc7e02e4cecaf8ff487b8d41467" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="70b2999bbd50448db276f985bc407f1a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#461beaeed45d4293862b14b76ad23f77" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1d95e0454ca54e71b1c254dd7488ea1a" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1d95e0454ca54e71b1c254dd7488ea1a" dx="16"/>
                 </textPath>
             </text>
 
@@ -244,7 +244,7 @@
             <use xlink:href="#f5cf14ce124b40f79c93c19c0b1bc05f" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" p:filter="url(#781ea3f4ed064a08a19b35f5cd523c46)" style="opacity: 0.5; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="df0cef9e3c5246e19576bdc5ade5cc24"/>
             <use xlink:href="#f5cf14ce124b40f79c93c19c0b1bc05f" xmlns:xlink="http://www.w3.org/1999/xlink"/>
             <foreignObject x="7.9375" y="55" width="72.125" height="17" p:name="text" id="202d8a7a657145689d4f550035e8ac3b" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><span style="font-weight: bold;">Client</span><br /></div></foreignObject>
-        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="e3057f9cdfe24c57a1c3b344b18f750d" transform="matrix(1,0,0,1,762,57.9208984375)"><p:metadata><p:property name="startPin" p:connectedShapeId="d260ebfa08f54f95955ca494a79a54de" p:connectedOutletId="bottom-right" p:viax="-233.30453518662682" p:viay="145.21959126475448"><![CDATA[-239,137]]></p:property><p:property name="endPin" p:viay="269.5" p:viax="-64" p:connectedOutletId="middle-left" p:connectedShapeId="1623232c71764a459cfa25adf82ba354"><![CDATA[-54,269.5]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[multi-straight]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[vente]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="e3057f9cdfe24c57a1c3b344b18f750d" transform="matrix(1,0,0,1,762,57.9208984375)"><p:metadata><p:property name="startPin" p:viay="145.21959126475448" p:viax="-233.30453518662682" p:connectedOutletId="bottom-right" p:connectedShapeId="d260ebfa08f54f95955ca494a79a54de"><![CDATA[-239,137]]></p:property><p:property name="endPin" p:connectedShapeId="1623232c71764a459cfa25adf82ba354" p:connectedOutletId="middle-left" p:viax="-64" p:viay="269.5"><![CDATA[-54,269.5]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[multi-straight]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[vente]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <defs>
                 <path style="stroke-linejoin: round; fill: none;" p:name="path" id="4e0798d12a8b4485a75f4b3760bccaee" d="M -239 137 L -136.53012048192772 273.6265060240964 L -63.98752338877844 269.9993761694389 L -54 269.5 M -60 264 L -54 269.5 L -59 275"/>
             </defs>
@@ -303,7 +303,7 @@
             <use xlink:href="#4c86c69485d047088bf42733c074eec2" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="d30a2268f10b4a729234ab6ad31f2bcf" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="53196ac355914ee19efd906ef0bc7b91" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4c86c69485d047088bf42733c074eec2" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="55d6287fcce843e1b0f4030f235747ba" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="55d6287fcce843e1b0f4030f235747ba" dx="0"/>
                 </textPath>
             </text>
 
@@ -440,7 +440,7 @@
             <use xlink:href="#e02f808738824b40aab28775987276c8" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b0ecca67b5804360996f68371090df7c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f6a006ae6f5b4970a2298fc79a807afd" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e02f808738824b40aab28775987276c8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f1845d2f25a24b05b9ab49588b3fce16" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f1845d2f25a24b05b9ab49588b3fce16" dx="16"/>
                 </textPath>
             </text>
 
@@ -517,7 +517,7 @@
             <use xlink:href="#8a37299eba32428fb59844d64741e4e6" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f68d79f5c9734c11847a1b14a37d56a2" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="d45317a5a02d45d58611a45afec0e440" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#8a37299eba32428fb59844d64741e4e6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4b4cae6aa3b34fe594fb073de2edb600" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4b4cae6aa3b34fe594fb073de2edb600" dx="0"/>
                 </textPath>
             </text>
 
@@ -568,7 +568,7 @@
             <use xlink:href="#b2fc30757407426781f4b9a7250549b3" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="79fe69b1e97843e0afbd289ccb69a90c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="1842f8849b85475eb2fe8e0796ea4d87" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b2fc30757407426781f4b9a7250549b3" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d5ef76dd8be34ea8acd187f3ca64573a" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d5ef76dd8be34ea8acd187f3ca64573a" dx="16"/>
                 </textPath>
             </text>
 
@@ -580,7 +580,7 @@
             <use xlink:href="#064f3a40870341cf959e810104928e65" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e121b5267e08403bafce03ceb2907105" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="cb820609b2024eb1b94083471d95f45b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#064f3a40870341cf959e810104928e65" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5731f0da4bb34a7b80276690f843e48e" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5731f0da4bb34a7b80276690f843e48e" dx="16"/>
                 </textPath>
             </text>
 
@@ -592,7 +592,7 @@
             <use xlink:href="#5db3a3ae92cb403e8d5fd2ac9d4eda5b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="77ab8ebb0c3f48b28d3609ac9ea59caa" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3755fbc4d48644f6b417d0a7ba599d76" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5db3a3ae92cb403e8d5fd2ac9d4eda5b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f43daeeca0894037a4c7905afd9b7997" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f43daeeca0894037a4c7905afd9b7997" dx="16"/>
                 </textPath>
             </text>
 
@@ -604,7 +604,7 @@
             <use xlink:href="#d95839cf311248b783c58eccf0e2d872" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="dd11343b16914c6681736475a4227164" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4bfaa10a772742d0b1269fc2b2a8a6e5" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#d95839cf311248b783c58eccf0e2d872" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8c9b6297713748a9aa64f106a4d688cd" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8c9b6297713748a9aa64f106a4d688cd" dx="16"/>
                 </textPath>
             </text>
 
@@ -616,7 +616,7 @@
             <use xlink:href="#882d8e256eba4e5681f5d01eaf593108" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="46331cdbccbc4e949984151eaaadd338" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="798c8d51207c404f84fd122a2a68bf8b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#882d8e256eba4e5681f5d01eaf593108" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5ca2afbd4d164a96ad565f4c450d9e66" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5ca2afbd4d164a96ad565f4c450d9e66" dx="16"/>
                 </textPath>
             </text>
 
@@ -628,7 +628,7 @@
             <use xlink:href="#53e7cdd6f99a4d8fb211c84a49badb90" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ae528b90a4c14995a463e8bdee1f9ee2" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7c35931c0bb24591afad67ddbce516da" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#53e7cdd6f99a4d8fb211c84a49badb90" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="98cc600b23354ada9dd9bf3f2d6022b6" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="98cc600b23354ada9dd9bf3f2d6022b6" dx="16"/>
                 </textPath>
             </text>
 
@@ -640,7 +640,7 @@
             <use xlink:href="#86eb9504bb6343659296dada33cb9821" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="3e632b70652b4eb98c4a260118eba4e6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ae506c018c1f4f48a7eed51144cdf2d6" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#86eb9504bb6343659296dada33cb9821" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b140b09d5c904a3b94a02569ae3139b1" dx="16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b140b09d5c904a3b94a02569ae3139b1" dx="16"/>
                 </textPath>
             </text>
 
@@ -652,7 +652,7 @@
             <use xlink:href="#b355e0f374b543df823b30bda18b8623" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="3f674612c73c41d5914df03bdf613083" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ca85f6ff9db64bbd91b6e597b0fcb31a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b355e0f374b543df823b30bda18b8623" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7e2fa4d71153417bb07ec782b16dc172" dx="-16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7e2fa4d71153417bb07ec782b16dc172" dx="-16"/>
                 </textPath>
             </text>
 
@@ -664,7 +664,7 @@
             <use xlink:href="#9f891cfebe114cc888bbd89a56f75578" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2da61cd5859c4cf68d507e96ac6308a7" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="0546d7c277194bacaa9c541a77e736be" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9f891cfebe114cc888bbd89a56f75578" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1a121b27ecba42c48366977e9cb02405" dx="-16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1a121b27ecba42c48366977e9cb02405" dx="-16"/>
                 </textPath>
             </text>
 
@@ -676,7 +676,19 @@
             <use xlink:href="#5f380742f76a4dcca6ee5222fbbe1143" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="238e71ad23da4f5d897144d28971a2fa" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="cfaafb761410483c80cedc7f34f43ffa" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5f380742f76a4dcca6ee5222fbbe1143" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="978cd8c6567d48b5a95ee657c263f52c" dx="-16"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="978cd8c6567d48b5a95ee657c263f52c" dx="-16"/>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="e2fc55dc8b92415b9d86e1b204bef8ce" transform="matrix(1,0,0,1,762,57.9208984375)"><p:metadata><p:property name="startPin" p:viay="145.21959126475448" p:viax="-233.30453518662682" p:connectedOutletId="bottom-right" p:connectedShapeId="d260ebfa08f54f95955ca494a79a54de"><![CDATA[-239,137]]></p:property><p:property name="endPin" p:connectedShapeId="9082422fcf8d4b699488432054d2113d" p:connectedOutletId="middle-left" p:viax="-60" p:viay="464.5"><![CDATA[-50,464.5]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[multi-straight]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="828a23743c7a451da16cf3ba729876aa" d="M -239 137 L -233 145 L -60 465 L -59.98752338877844 464.9993761694389 L -50 464.5 M -56 459 L -50 464.5 L -55 470"/>
+            </defs>
+            <use xlink:href="#828a23743c7a451da16cf3ba729876aa" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#828a23743c7a451da16cf3ba729876aa" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a7c735418280400fb0e61a5f0425da61" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="a110ee919d234b30b1b3aaefc239d996" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#828a23743c7a451da16cf3ba729876aa" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="604c959b26894a0aaeba03d7af5c694d" dx="-16"></tspan>
                 </textPath>
             </text>
 
