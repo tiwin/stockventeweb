@@ -1,20 +1,20 @@
 -- -----------------------------------------------------------------------------
---             Génération d'une base de données pour
+--             GÃˆnÃˆration d'une base de donnÃˆes pour
 --                           PostgreSQL
 --                        (6/5/2013 20:34:31)
 -- -----------------------------------------------------------------------------
 --      Nom de la base : stockvente
 --      Projet : 
 --      Auteur : IQ
---      Date de dernière modification : 6/5/2013 20:31:28
+--      Date de derniÃ‹re modification : 6/5/2013 20:31:28
 -- -----------------------------------------------------------------------------
 
-drop database stockvente;
+
 -- -----------------------------------------------------------------------------
 --       CREATION DE LA BASE 
 -- -----------------------------------------------------------------------------
 
-CREATE DATABASE stockvente;
+
 
 -- -----------------------------------------------------------------------------
 --       TABLE : FACTURE
@@ -22,9 +22,9 @@ CREATE DATABASE stockvente;
 
 CREATE TABLE FACTURE
    (
-    ID_FACTURE char(32) NOT NULL  ,
-    ID_USER char(32) NOT NULL  ,
-    ID_CLIENT char(32) NOT NULL  ,
+    ID_FACTURE int NOT NULL  ,
+    ID_USER int NOT NULL  ,
+    ID_CLIENT int NOT NULL  ,
     DATE_FACTURE date NULL  ,
     MONTANT_FACTURE money NULL  ,
     MODE_PAIEMENT_FACTURE varchar(128) NULL  
@@ -49,7 +49,7 @@ CREATE  INDEX I_FK_FACTURE_CLIENT
 
 CREATE TABLE FOURNISSEUR
    (
-    ID_FOURNISSEUR char(32) NOT NULL  ,
+    ID_FOURNISSEUR int NOT NULL  ,
     NOM_FOURNISSEUR varchar(128) NULL  ,
     COORDONNEES varchar(128) NULL  
 ,   CONSTRAINT PK_FOURNISSEUR PRIMARY KEY (ID_FOURNISSEUR)
@@ -61,7 +61,7 @@ CREATE TABLE FOURNISSEUR
 
 CREATE TABLE UTILISATEUR
    (
-    ID_USER char(32) NOT NULL  ,
+    ID_USER int NOT NULL  ,
     NOM_USER varchar(128) NULL  ,
     PRENOM_USER varchar(128) NULL  ,
     FONCTION_USER varchar(128) NULL  ,
@@ -76,11 +76,11 @@ CREATE TABLE UTILISATEUR
 
 CREATE TABLE PRIXPRODUIT
    (
-    ID_PRIX char(32) NOT NULL  ,
-    ID_PRODUIT char(32) NOT NULL  ,
+    ID_PRIX int NOT NULL  ,
+    ID_PRODUIT int NOT NULL  ,
     DEBUT_VALIDITE_PRIX date NULL  ,
     FIN_VALIDITE_PRIX date NULL  ,
-    VALEUR_PRIX money NULL  
+    VALEUR_PRIX int NULL  
 ,   CONSTRAINT PK_PRIXPRODUIT PRIMARY KEY (ID_PRIX)
    );
 
@@ -98,7 +98,7 @@ CREATE  INDEX I_FK_PRIXPRODUIT_PRODUIT
 
 CREATE TABLE CLIENT
    (
-    ID_CLIENT char(32) NOT NULL  ,
+    ID_CLIENT  int NOT NULL  ,
     NOM_CLIENT varchar(128) NULL  ,
     PRENOM_CLIENT varchar(128) NULL  ,
     ADRESSE_CLIENT varchar(128) NULL  ,
@@ -115,7 +115,7 @@ CREATE TABLE CLIENT
 
 CREATE TABLE PRODUIT
    (
-    ID_PRODUIT char(32) NOT NULL  ,
+    ID_PRODUIT int NOT NULL  ,
     NOM_PRODUIT varchar(128) NULL  ,
     GARANTIE_PRODUIT char(32) NULL  
 ,   CONSTRAINT PK_PRODUIT PRIMARY KEY (ID_PRODUIT)
@@ -127,11 +127,11 @@ CREATE TABLE PRODUIT
 
 CREATE TABLE STOCKPRODUIT
    (
-    ID_STOCK_PRODUIT char(32) NOT NULL  ,
-    ID_FOURNISSEUR char(32) NOT NULL  ,
-    ID_USER char(32) NOT NULL  ,
-    ID_PRODUIT char(32) NOT NULL  ,
-    QTE_PRODUIT_STOCKE char(32) NULL  
+    ID_STOCK_PRODUIT int NOT NULL  ,
+    ID_FOURNISSEUR int NOT NULL  ,
+    ID_USER int NOT NULL  ,
+    ID_PRODUIT int NOT NULL  ,
+    QTE_PRODUIT_STOCKE int NULL  
 ,   CONSTRAINT PK_STOCKPRODUIT PRIMARY KEY (ID_STOCK_PRODUIT)
    );
 
@@ -157,8 +157,8 @@ CREATE  INDEX I_FK_STOCKPRODUIT_PRODUIT
 
 CREATE TABLE CONTIENT
    (
-    ID_FACTURE char(32) NOT NULL  ,
-    ID_PRODUIT char(32) NOT NULL  ,
+    ID_FACTURE int NOT NULL  ,
+    ID_PRODUIT int NOT NULL  ,
     QTE_PRODUIT_FACTUREE char(32) NULL  
 ,   CONSTRAINT PK_CONTIENT PRIMARY KEY (ID_FACTURE, ID_PRODUIT)
    );
